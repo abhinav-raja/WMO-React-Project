@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Superman"
+    },
+    {
+        "id": 2,
+        "name": "Souperman"
+    },
+    {
+        "id": 3,
+        "name": "Spiderman"
+    },
+    {
+        "id": 4,
+        "name": "Spyderman"
+    },
+    {
+        "id": 5,
+        "name": "Batman"
+    },
+    {
+        "id": 6,
+        "name": "Batterman"
+    },
+    {
+        "id": 7,
+        "name": "Manman"
+    },
+    {
+        "id": 8,
+        "name": "The hulk"
+    },
+    {
+        "id": 9,
+        "name": "Blade"
+    }
+]
