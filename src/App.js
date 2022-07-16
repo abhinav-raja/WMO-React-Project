@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React, {useState} from 'react';
 import heroes from './heroes.json';
-import Hero from './components/Hero.js';
+import Hero from './components/views/Hero.js';
 import Home from './components/views/Home.js';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 

@@ -1,8 +1,8 @@
 import React, {useEffect, useState} from 'react';
 import {useParams} from 'react-router';
 //import heroes from '../heroes.json';
-import TextInputForm from './TextInputForm.js';
-import Header from './Header.js';
+import TextInputForm from '../TextInputForm.js';
+import Header from '../Header.js';
 import {Link} from 'react-router-dom';
 
 function Hero({onHeroChange, heroes}){
@@ -11,10 +11,8 @@ function Hero({onHeroChange, heroes}){
     let hero = heroes.filter(a => a.id === id)[0];
     let name = hero.name;
     let [userInput, setUserInput] = useState("");
-    //let [name, setName] = useState(hero.name);
 
     function handleSubmit(){
-        //setName(userInput);
         setUserInput("");
         let newHeroes = heroes.map(hero => {
             let newHero = hero;
