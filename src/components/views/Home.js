@@ -1,10 +1,9 @@
 import React from 'react';
-import Header from './Header.js';
-import heroData from '../heroes.json';
+import Header from '../Header.js';
+import heroData from '../../heroes.json';
 import {Link} from 'react-router-dom';
 
-function Home(){
-    let heroes = heroData;
+function Home({heroes}){
     return(
         <div>
             <Header title="Home of Heroes" />
