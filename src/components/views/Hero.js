@@ -8,7 +8,7 @@ import {Link} from 'react-router-dom';
 function Hero({onHeroChange, heroes}){
     let {id} = useParams();
     id = parseInt(id);
-    let hero = heroes.filter(a => a.id === id)[0];
+    let hero = heroes.find(a => a.id === id);
     let name = hero.name;
     let [userInput, setUserInput] = useState("");
 
